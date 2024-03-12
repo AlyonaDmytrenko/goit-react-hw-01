@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <div>

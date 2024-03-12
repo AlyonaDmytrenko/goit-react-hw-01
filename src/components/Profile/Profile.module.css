@@ -1,17 +1,33 @@
 body {
-  width: 1440px;
-  padding: 20px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
 }
+
 .profileBox {
-  border: 2px solid black;
-  border-radius: 5px;
+  border: 5px solid black;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
 }
+
 .profileImg {
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.profileTitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.profileText {
+  color: gray;
 }
 .profileList {
-}
-.profileItem {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
 }
